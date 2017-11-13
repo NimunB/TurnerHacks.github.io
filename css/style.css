@@ -277,8 +277,8 @@ blockquote {
 
 .portfolio-filter > li a.active {
     color: #FFF;
-    background: #00b29e;
-    border: 2px solid #00b29e;
+    background: #D9B310;
+    border: 2px solid #D9B310;
 }
 
 .portfolio-items > li {
@@ -351,7 +351,7 @@ blockquote {
     -o-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    border-bottom: 4px solid #00b29e;
+    border-bottom: 4px solid #D9B310;
 }
 
 .portfolio-item h5:after {
@@ -492,7 +492,7 @@ div.pp_overlay {
     border-radius: 0;
     list-style: none;
     margin: 0 0 20px;
-    background: #00b29e;
+    background: #D9B310;
     text-align: center;
     padding: 30px 0;
 }
@@ -894,7 +894,7 @@ ul.tag-cloud li {
 
 .team-member:hover .img-thumbnail {
     background: transparent;
-    background-color: #00b29e;
+    background-color: #D9B310;
 }
 
 .team-member .img-thumbnail {
@@ -1028,7 +1028,7 @@ ul.tag-cloud li {
     line-height: 68px;
     color: #fff;
     margin-right: 15px;
-    background-color: #00b29e;
+    background-color: #D9B310;
     text-align: center;
     display: block;
     box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
@@ -1040,8 +1040,8 @@ ul.tag-cloud li {
 
 .service-block:hover .fa-md {
     background: transparent;
-    color: #00b29e;
-    box-shadow: 0 0 0 4px #00b29e;
+    color: #D9B310;
+    box-shadow: 0 0 0 4px #D9B310;
 }
 
 .service-block .media-heading {
@@ -1233,7 +1233,7 @@ ul.rss li::before {
 
 #footer a:hover,
 #footer-wrapper a:hover {
-    color: #00b29e;
+    color: #D9B310;
 }
 
 #footer ul {
@@ -1610,15 +1610,15 @@ img.author-box-image {
 
 .btn-outlined.btn-primary {
     background: none;
-    border: 2px solid #00b29e;
-    color: #00b29e;
+    border: 2px solid #D9B310;
+    color: #D9B310;
 }
 
 .btn-outlined.btn-primary:hover,
 .btn-outlined.btn-primary:active {
     color: #D9B310;
-    background: #00b29e;
-    border-color: #00b29e: ;
+    background: #D9B310;
+    border-color: #D9B310: ;
 }
 
 .btn-outlined.btn-success {
@@ -1677,7 +1677,7 @@ img.author-box-image {
 
 .btn-outlined.btn-white:hover,
 .btn-outlined.btn-white:active {
-    color: #00b29e;
+    color: #D9B310;
     background: #D9B310;
 }
 
@@ -1908,7 +1908,7 @@ img.author-box-image {
 }
 
 .tile-progress.tile-cyan .tile-footer {
-    background: #00b29e;
+    background: #D9B310;
     color: #fff;
 }
 
@@ -1996,7 +1996,7 @@ img.author-box-image {
 }
 
 .testimonial-list-item:hover blockquote {
-    border-left: 4px solid #00b29e;
+    border-left: 4px solid #D9B310;
 }
 
 .quote-author-list {
@@ -2146,6 +2146,45 @@ img.author-box-image {
     font-size: 13px;
     letter-spacing: 2px;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #bc258a;
+  color: white;
+}
+
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
 
 .form-control {
     height: 42px;
@@ -2304,4 +2343,42 @@ img.author-box-image {
     #footer-wrapper {
         position: relative !important;
     }
+}
+
+.large-header {
+  position: relative;
+  width: 100%;
+  background: #333;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+#large-header {
+  background-image: url("https://www.beautycolorcode.com/082746-2880x1800.png");
+}
+.maino-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #f9f1e9;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  font-size: 100px;
+}
+.demo-1 .maino-title {
+  text-transform: uppercase;
+  font-size: 4.2em;
+  letter-spacing: 0.1em;
+}
+.maino-title .thin {
+  font-weight: 200;
+}
+@media only screen and (max-width: 768px) {
+  .demo-1 .maino-title {
+    font-size: 3em;
+  }
 }

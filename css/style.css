@@ -222,7 +222,7 @@ blockquote {
     clear: both;
     display: block;
     font-size: 78px;
-    margin: 100px auto 0;
+    margin: 130px auto 0;
     position: relative;
     width: 80px;
     -webkit-transform: rotate(15deg);
@@ -277,8 +277,8 @@ blockquote {
 
 .portfolio-filter > li a.active {
     color: #FFF;
-    background: #D9B310;
-    border: 2px solid #D9B310;
+    background: #4DE382;
+    border: 2px solid #4DE382;
 }
 
 .portfolio-items > li {
@@ -330,7 +330,7 @@ blockquote {
     margin: 0;
     padding: 15px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1.3vw;
     white-space: nowrap;
     text-overflow: ellipsis;
     position: relative;
@@ -387,7 +387,7 @@ blockquote {
 
 .portfolio-item .overlay .preview {
     position: relative;
-    top: 50%;
+    top: 34%;
     display: inline-block;
     margin-top: -20px;
 }
@@ -1521,14 +1521,11 @@ img.author-box-image {
 }
 
 .widget-img {
-    max-width: 80px;
+    max-width: 100px;
     height: auto;
 }
 
-.about-us-widget {
-    background-image: url(../images/world-map.png);
-    background-size: contain;
-}
+
 
 .widget-title {
     font-size: 18px;
@@ -1610,39 +1607,39 @@ img.author-box-image {
 
 .btn-outlined.btn-primary {
     background: none;
-    border: 2px solid #D9B310;
-    color: #D9B310;
+    border: 2px solid #4DE382;
+    color: #4DE382;
 }
 
 .btn-outlined.btn-primary:hover,
 .btn-outlined.btn-primary:active {
-    color: #D9B310;
-    background: #D9B310;
-    border-color: #D9B310: ;
+    color: #4DE382;
+    background: #4DE382;
+    border-color: #4DE382: ;
 }
 
 .btn-outlined.btn-success {
     background: none;
-    border: 2px solid #5cb85c;
-    color: #5cb85c;
+    border: 2px solid #FFF;
+    color: #FFF;
 }
 
 .btn-outlined.btn-success:hover,
 .btn-outlined.btn-success:active {
-    color: #D9B310;
+    color: #4DE382;
     background: #47a447;
 }
 
 .btn-outlined.btn-info {
     background: none;
-    border: 2px solid #5bc0de;
-    color: #5bc0de;
+    border: 2px solid #FFF;
+    color: #FFF;
 }
 
 .btn-outlined.btn-info:hover,
 .btn-outlined.btn-info:active {
-    color: #D9B310;
-    background: #39b3d7;
+    color: #4DE382;
+    background: #0B232B;
 }
 
 .btn-outlined.btn-warning {
@@ -1653,7 +1650,7 @@ img.author-box-image {
 
 .btn-outlined.btn-warning:hover,
 .btn-outlined.btn-warning:active {
-    color: #D9B310;
+    color: #4DE382;
     background: #ed9c28;
 }
 
@@ -1665,20 +1662,20 @@ img.author-box-image {
 
 .btn-outlined.btn-danger:hover,
 .btn-outlined.btn-danger:active {
-    color: #D9B310;
+    color: #4DE382;
     background: #d2322d;
 }
 
 .btn-outlined.btn-white {
     background: none;
-    border: 2px solid #D9B310;
-    color: #D9B310;
+    border: 2px solid #4DE382;
+    color: #4DE382;
 }
 
 .btn-outlined.btn-white:hover,
 .btn-outlined.btn-white:active {
-    color: #D9B310;
-    background: #D9B310;
+    color: #4DE382;
+    background: #4DE382;
 }
 
 
@@ -2019,7 +2016,7 @@ img.author-box-image {
     #main-slider .carousel-inner .item .container,
     #main-slider .carousel-inner .item .row,
     #main-slider .carousel-inner .item .row .col-sm-12 {
-        height: 100vh;
+        height: 10&;
     }
 }
 
@@ -2116,7 +2113,7 @@ img.author-box-image {
 
 .navbar-header h1 {
     color: #fff;
-    font-size: 24px;
+    font-size: 48%;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 0;
@@ -2198,7 +2195,7 @@ img.author-box-image {
     letter-spacing: 2px;
 }
 
-.portfolio-item h5 {
+.-item h5 {
     background: #fff;
     margin: 0 20px 0 0;
     padding: 20px 10px;

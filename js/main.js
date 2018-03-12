@@ -111,14 +111,14 @@ jQuery(document).ready(function( $ ) {
   });
 
   // jQuery counterUp
-  $('[data-toggle="counter-up"]').counterUp({
+/*  $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 1000
   });
 
-
+*/
   //Google Map
-  var get_latitude = $('#google-map').data('latitude');
+/*  var get_latitude = $('#google-map').data('latitude');
   var get_longitude = $('#google-map').data('longitude');
 
   function initialize_google_map() {
@@ -135,7 +135,7 @@ jQuery(document).ready(function( $ ) {
     });
   }
   google.maps.event.addDomListener(window, 'load', initialize_google_map);
-
+*/
 // custom code
 
 });

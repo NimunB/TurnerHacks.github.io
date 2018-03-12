@@ -698,6 +698,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-left: 50px;
 }
 
+/*APPLICATIONS
+--------------------------*/
+
+#apply-now:hover{
+  color:rgb(100, 230, 200);
+}
 
 /* Team Section
 --------------------------------*/
@@ -748,6 +754,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+/* Execs
+------------------------------------*/
+#exec{
+  width: 100%;
+}
+
+
+/* FAQs
+------------------------------------*/
+
+.FAQs{
+  column-count: 2;
+  column-gap: 40px;
+   column-span: all;
 }
 
 /* Contact Section
